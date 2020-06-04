@@ -31,4 +31,12 @@ export default class Cart {
            
            console.log(this.sum.toFixed(2))
     }
+
+    remove(ind: number) {
+           for (let item = 0; item < this.items.length; item++) {
+            if (this.items[item].id === ind){
+                this._items.splice(item, 1)
+            }            
+           }
+    }
 }

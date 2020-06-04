@@ -5,6 +5,7 @@ const rip = new MusicAlbum(1, 'Rust In Peace', 'Megadeth', 15);
 const rib = new MusicAlbum(2, 'Reign In Blood', 'Slayer', 13);
 const ajfa = new MusicAlbum(3, '...And Justice For All', 'Metallica', 10);
 const atl = new MusicAlbum(4, 'Among The Living', 'Anthrax', 9)
+
 const cart = new Cart();
 
 cart.add(rip);
